@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs Project 1 - Static Webpage</title>
+    <link rel="stylesheet" href="Project 1.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo-container">
+            <span class="header__logo">DecodeLabs</span>
+        </div>
+        <nav class="header__nav" aria-label="Main Navigation">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li> <!-- 'Links' ki jagah 'About' kar diya -->
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__content">
+                <h1 id="hero-title" class="hero__title">Building Modern Web Interfaces</h1>
+                <p class="hero__subtitle">My structural phase: Static Webpage Design.</p>
+                <a href="#explore" class="button button--primary">Call to Action</a>
+            </div>
+        </section>
+
+        <section id="explore" class="content-section" aria-labelledby="section-title">
+            <h2 id="section-title" class="content-section__title">Featured Insights</h2>
+
+            <div class="grid-container">
+                <article class="card">
+                    <!-- WebP format link added -->
+                    <img class="card__image" src="https://picsum.photos/300/200.webp" alt="Abstract digital architecture representing web foundation" width="300" height="200">
+                    <div class="card__content">
+                        <h3 class="card__title">Semantic Integrity</h3>
+                        <p class="card__text">Master the fundamental relationship between content and style through pure markup logic.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__image" src="https://picsum.photos/300/200.webp?random=1" alt="Minimalist wireframe structure on grid paper" width="300" height="200">
+                    <div class="card__content">
+                        <h3 class="card__title">Information Architecture</h3>
+                        <p class="card__text">Learn the art of organizing data for maximum findability and user-centric usability.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__image" src="https://picsum.photos/300/200.webp?random=2" alt="Clean and organized workspace with code screen" width="300" height="200">
+                    <div class="card__content">
+                        <h3 class="card__title">CSS Engineering</h3>
+                        <p class="card__text">Keep styles structured, avoid layout shifts, and always separate appearance from concerns.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card__image" src="https://picsum.photos/300/200.webp?random=3" alt="Hands-on practice schematic with tools" width="300" height="200">
+                    <div class="card__content">
+                        <h3 class="card__title">Quality Audit</h3>
+                        <p class="card__text">Zero errors allowed. Pass W3C standards and visual regression with absolute perfection.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contact-info">
+            <p class="footer__text">&copy; 2026 DecodeLabs. All rights reserved.</p>
+            <p class="footer__text">Contact: decodelabs.tech@gmail.com | Greater Lucknow, India</p>
+        </div>
+    </footer>
+
+</body>
+</html>
